@@ -1,0 +1,176 @@
+body{
+	background-color: white;
+	padding: 0;
+	margin:0;
+}
+.topDesign{
+	height:100px;
+	width: 100%;
+	border-bottom: solid 5px;
+	background-color: #C1ECF5; 
+	background-image:url("http://jahilandalex.com/images/skyline.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	position: fixed;
+	z-index: 100;
+}
+#corner{
+	height: 100px;
+	width:180px;
+	float: left;
+	border-right: solid 5px;
+	background-color: white;
+}
+#sun{
+	background-color: #ECF5C1;
+	position:fixed;
+	right: -40px;
+	top:-40px;
+	height: 100px;
+	width:100px;
+	border-radius:999px;
+	-webkit-transition: color 0.5s linear 0;
+}
+#titles{
+	font-family: 'Karla', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+	float: left;
+	margin-left: 25%;
+	margin-top: 20px;
+	position: fixed;
+}
+.sideNav{
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	position: fixed;
+	height:100%;
+	width:180px;
+	border-right: solid 5px;
+	background-color:  #ECF5C1;
+}
+.leftOptions{
+	list-style-type: none;
+	margin-top: 120px;
+	margin-left: -20px;
+}
+.leftOptions li{
+	margin-bottom: 10px;
+}
+.postSection{
+	margin-top: 150px;
+	margin-left: 225px;
+	position:absolute;
+	float:left;
+	color: black;
+
+}
+.firstPost{
+	width:950px;
+	float:left;
+	z-index: 15;
+}
+#stumptownPic{
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.postTitle{
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: left;
+	float:left;
+	height:50px;
+	width:400px;
+}
+.dateRibbonContainer{
+	height:80px;
+	width:100px;
+	position: relative;
+	top:20px;
+	float:right;
+}
+.beforeRibbon{
+	height:25px;
+	width:25px;
+	border: 2px solid gray;
+	position:relative;
+	top:22px;
+	left:1px;
+	z-index: 6;
+	background-color: #99C4CD;
+}
+.postDate{
+	font-family: 'Karla', sans-serif;
+	color: black;
+	background-color: #C1ECF5;
+	text-align: center;
+	height: 25px;
+	margin-bottom: 25px;
+	padding:3px;
+	position: relative;
+	border: 2px solid gray;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	top:-25px;
+	-webkit-transform:  skew(1deg, -15deg);
+	-moz-transform: skew(1deg, -15deg) ;
+  	-o-transform:  skew(1deg, -15deg) ;
+  	-ms-transform: skew(1deg, -15deg) ;
+  	transform:  skew(1deg, -15deg) ;
+  	z-index: 10;
+}
+.afterRibbon{
+	height:25px;
+	width:25px;
+	border: 2px solid gray;
+	position:relative;
+	left: 71px;
+	bottom:98px;
+	z-index: 6;
+	background-color: #99C4CD;
+}
+.coffeeRibbon{
+	height:80px;
+	width:100px;
+	background-image:url("http://fc01.deviantart.net/fs70/f/2012/190/4/7/cute_kawaii_coffee_png_by_trubuteofdistrict13-d56mak2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float:right;
+	position: relative;
+	bottom:150px;
+	z-index: 7;
+}
+.pizzaRibbon{
+	height:80px;
+	width:100px;
+	background-image:url("http://fc02.deviantart.net/fs70/f/2011/247/d/6/pizza_png_by_bellathornealways-d48u63r.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float:right;
+	position: relative;
+	bottom:150px;
+	z-index: 7;
+}
+.postContent{
+	font-family: 'Karla', sans-serif;
+}
+.commentSection{
+	float:left;
+	font-family: 'Karla', sans-serif;
+	margin-top:50px;
+	width:800px;
+}
+.commentTitle{
+	font-weight: bold;
+	float:left;
+	width: 500px;
+	clear:all;
+}
+.fb-comments{
+	float:left;
+}
