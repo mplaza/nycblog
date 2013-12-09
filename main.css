@@ -24,7 +24,7 @@ body{
 }
 #sun{
 	background-color: #ECF5C1;
-	position:fixed;
+	position:absolute;
 	right: -40px;
 	top:-40px;
 	height: 100px;
@@ -40,38 +40,84 @@ body{
 	float: left;
 	margin-left: 25%;
 	margin-top: 20px;
-	position: fixed;
+	position: absolute;
 }
 .sideNav{
 	font-family: 'Karla', sans-serif;
 	font-weight: bold;
 	font-size: 16px;
-	position: fixed;
-	height:100%;
+	height:600%;
 	width:180px;
 	border-right: solid 5px;
 	background-color:  #ECF5C1;
+	float: left;
 }
 .leftOptions{
 	list-style-type: none;
 	margin-top: 120px;
-	margin-left: -20px;
+	position:fixed;
 }
 .leftOptions li{
 	margin-bottom: 10px;
 }
+#cheese{
+	position: relative;
+	top:400px;
+	z-index: 500;
+	float:left;
+}
+#cheese.fixed{
+	position: fixed;
+	top: 20px;
+	left:0px;
+	z-index: 501;
+	visibility: show;
+}
+#ladder{
+	position: relative;
+	top:950px;
+	z-index: 500;
+	float:left;
+}
+#ladder.fixed{
+	position: fixed;
+	top: 55px;
+	left:0px;
+	z-index: 500;
+}
+#mouse{
+	position: relative;
+	top:1030px;
+	z-index: 450;
+	float:left;
+}
+#mouse.fixed{
+	position: fixed;
+	top: 25px;
+	left:0px;
+	z-index: 500;
+}
+#balloon{
+	position:fixed;
+	top:-30px;
+	left:-10px;
+	z-index: 500;
+	display: none;
+}
 .postSection{
 	margin-top: 150px;
-	margin-left: 225px;
-	position:absolute;
+	margin-left: 25px;
+	width: 950px;
 	float:left;
 	color: black;
-
 }
 .firstPost{
 	width:950px;
 	float:left;
 	z-index: 15;
+	border: solid 2px;
+	background-color: #ECF5C1;
+	padding: 10px;
 }
 #stumptownPic{
 	float: left;
