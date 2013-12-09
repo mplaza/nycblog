@@ -17,7 +17,7 @@ body{
 }
 #corner{
 	height: 100px;
-	width:180px;
+	width:6%;
 	float: left;
 	border-right: solid 5px;
 	background-color: white;
@@ -47,7 +47,7 @@ body{
 	font-weight: bold;
 	font-size: 16px;
 	height:600%;
-	width:180px;
+	width:6%;
 	border-right: solid 5px;
 	background-color:  #ECF5C1;
 	float: left;
@@ -105,14 +105,25 @@ body{
 	display: none;
 }
 .postSection{
-	margin-top: 150px;
-	margin-left: 25px;
-	width: 950px;
+	margin-top: 110px;
+	margin-left: 10px;
+	width: 85%;
 	float:left;
 	color: black;
 }
+.initPost{
+	width:100%;
+	height: 200px;
+	overflow: hidden;
+	float:left;
+	z-index: 15;
+	border: solid 2px;
+	background-color: #FFFFDF;
+	padding: 10px;
+	margin-bottom: 20px;
+}
 .firstPost{
-	width:950px;
+	width:100%;
 	float:left;
 	z-index: 15;
 	border: solid 2px;
@@ -130,8 +141,23 @@ body{
 	font-size: 24px;
 	text-align: left;
 	float:left;
-	height:50px;
-	width:400px;
+	height:35px;
+	width:50%;
+}
+.seeMore{
+	float:right;
+	position: relative;
+	top:172px;
+	left: 110px;
+	height:30px;
+	width: 90px;
+	padding:4px;
+	z-index:16;
+	background-color: #ECF5C1;
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	visibility: show;
 }
 .dateRibbonContainer{
 	height:80px;

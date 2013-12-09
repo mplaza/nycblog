@@ -14,7 +14,6 @@ $(document).ready(function(){
 //		console.log(scrollPos);
 //		}
 //	});
-//$(".topDesign").animate({backgroundColor:"#C1ECF5"}, 15000);
 var ladderOffset = $("#ladder").offset().top-55;
 $(window).scroll(function(){
 	var y = $(this).scrollTop();
@@ -51,6 +50,10 @@ $(window).scroll(function(){
 		$("#mouse").animate({top:'505', left:'50'}, 5000);
 		$("#ladder").animate({opacity: '0'}, 1000);
 	};
+});
+$(".seeMore").on("click", function(){
+	$(".initPost").animate({height:'100%'}, 1000);
+	$(".seeMore").hide();
 });
 
 });
