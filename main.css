@@ -248,6 +248,7 @@ body{
 	margin-top:50px;
 	margin-left: 100px;
 	width:800px;
+	height:100%;
 }
 .commentTitle{
 	font-weight: bold;
@@ -259,4 +260,5 @@ body{
 }
 .fb-comments{
 	float:left;
+	height: 100%;
 }
